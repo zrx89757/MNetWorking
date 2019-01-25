@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MNetWorking_Tests' do
+  pod 'MNetWorking', :path => '../'
+  
+  
+end

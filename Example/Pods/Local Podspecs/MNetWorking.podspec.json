@@ -1,0 +1,27 @@
+{
+  "name": "MNetWorking",
+  "version": "0.1.0",
+  "summary": "A short description of MNetWorking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zrx89757/MNetWorking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zrx89757": "rongxing.zhong@patpat.com"
+  },
+  "source": {
+    "git": "https://github.com/zrx89757/MNetWorking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MNetWorking/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "3.2.1"
+    ]
+  }
+}

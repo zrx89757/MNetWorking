@@ -67,15 +67,15 @@ static NSString *const MFRequestMethodHead    = @"HEAD";
 static NSString *const MFRequestMethodPut     = @"PUT";
 static NSString *const MFRequestMethodDelete  = @"DELETE";
 
-static BOOL isAcceptableString(NSString *s) {
+static inline BOOL isAcceptableString(NSString *s) {
     return [s isKindOfClass:[NSString class]] && s.length > 0;
 }
 
-static BOOL isAcceptableDictionary(NSDictionary *d) {
+static inline BOOL isAcceptableDictionary(NSDictionary *d) {
     return [d isKindOfClass:[NSDictionary class]] && d.count > 0;
 }
 
-static BOOL isAcceptableNumber(NSNumber *n) {
+static inline BOOL isAcceptableNumber(NSNumber *n) {
     return [n isKindOfClass:[NSNumber class]];
 }
 
